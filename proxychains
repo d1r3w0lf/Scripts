@@ -32,6 +32,7 @@ printf "%s\n" "#                                                                
 printf "%s\n" "#                                                                            #"
 printf "%s\n" "##############################################################################"
 service tor start
+sleep 5
 proxychains firefox dnsleaktest.com
 service tor stop
 sleep 1
