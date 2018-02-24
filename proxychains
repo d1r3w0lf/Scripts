@@ -1,0 +1,48 @@
+#!/bin/sh
+
+#This is a script that lets you browse the internet anon. It starts the TOR 
+#service and firefox opening at the website dnsleaktest.com to ensure its working.
+
+printf "%s\n" "##############################################################################"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                 ANONYMOUS WEB BROWSING VIA PROXYCHAINS                     #"
+printf "%s\n" "#                       (ROUTED VIA TOR NETWORK)                             #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                              (d1R3W0LF)                                    #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#---------------------------------------------------------------------------- #"
+printf "%s\n" "#                                                                            #"
+sleep 1
+printf "%s\n" "#                   - TOR SERVICES ARE BEING STARTED-                        #"
+sleep 1
+printf "%s\n" "#               - INITIATING ENCRYPTED NETWORK CONNECTIONS -                 #"
+sleep 1
+printf "%s\n" "#                       - CHECKING FOR BAD GUYS-                             #"
+sleep 1
+printf "%s\n" "#                         - FIRING UP FIREFOX-                               #"
+sleep 1
+printf "%s\n" "#                    - WONDER WHERE WE'LL POP OUT? -                         #"
+sleep 0.5
+printf "%s\n" "#                                 GO!!!                                      #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "##############################################################################"
+service tor start
+proxychains firefox dnsleaktest.com
+service tor stop
+sleep 1
+echo ""
+printf "%s\n" "##############################################################################"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                    TOR services have been stopped                          #"
+printf "%s\n" "#                    ( you are no longer anonymous )                         #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "##############################################################################"
+
+exit
+
