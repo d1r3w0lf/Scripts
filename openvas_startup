@@ -8,13 +8,13 @@ openvas-start
 sleep 3
 printf "%s\n""          Updating OpenVAS Repositories                 "
 printf "%s\n""       Certdata-sync/NVT-sync/Scapdata-sync             "
-#greenbone-certdata-sync
-#greenbone-nvt-sync
-#greenbone-scapdata-sync
+greenbone-certdata-sync
+sleep 3
+greenbone-nvt-sync
+sleep 3
+greenbone-scapdata-sync
 printf "%s\n""             Firing up the Quattro                      "
 firefox https://127.0.0.1:9392
-sleep3
+sleep 3
 openvas-stop
 exit
-
-
