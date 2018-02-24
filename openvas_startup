@@ -1,0 +1,20 @@
+#!/bin/sh
+
+printf "%s\n""               Setting up OpenVAS                       "
+printf "%s\n""                  (d1r3w0lf)                            "
+sleep 1
+printf "%s\n""            Starting Openvas Services                   "
+openvas-start
+sleep 3
+printf "%s\n""          Updating OpenVAS Repositories                 "
+printf "%s\n""       Certdata-sync/NVT-sync/Scapdata-sync             "
+#greenbone-certdata-sync
+#greenbone-nvt-sync
+#greenbone-scapdata-sync
+printf "%s\n""             Firing up the Quattro                      "
+firefox https://127.0.0.1:9392
+sleep3
+openvas-stop
+exit
+
+
