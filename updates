@@ -1,0 +1,43 @@
+#!/bin/sh
+
+
+printf "%s\n" "##############################################################################"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                           CMDR incoming.....                               #"
+printf "%s\n" "#Standby..........downloading and installing updates, this may take some time#"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                   (Frame Shift Drive Charging!!!!!!)                       #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+sleep 1
+printf "%s\n" "#                               FIVE.                                        #"
+sleep 1
+printf "%s\n" "#                               FOUR.                                        #"
+sleep 1
+printf "%s\n" "#                               THREE                                        #"
+sleep 1
+printf "%s\n" "#                               TWO..                                        #"
+sleep 1
+printf "%s\n" "#                               ONE..                                        #"
+sleep 0.5
+printf "%s\n" "#                             ENGAGE!!!                                      #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "##############################################################################"
+apt-get update
+apt-get upgrade -y
+printf "%s\n" "##############################################################################"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#           All updates have been installed on your ship CMDR.....           #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                       Right on CMDR...o7                                   #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "#                                                                            #"
+printf "%s\n" "##############################################################################"
+
